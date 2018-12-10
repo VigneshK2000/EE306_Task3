@@ -83,7 +83,7 @@ PasteBar		; puts a pipe after start codon
 	TRAP X21
 	BRNZP State_U
 
-State_U
+State_U			; stop codon FSM, repeat start codon FSM 3 times
 	LDI R0, Get4600
 	BRZ State_U
 	TRAP X21
