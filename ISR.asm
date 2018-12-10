@@ -1,6 +1,11 @@
 ; ISR.asm
+<<<<<<< HEAD
 ; Name: Vignesh Krishnamurthy and Franklin Mao
 ; UTEid: vk5452
+=======
+; Name: Franklin Mao and Vignesh Krishnamurphy
+; UTEid: 
+>>>>>>> 16277cc0fe91dc3330ccc470ed9031c204812041
 ; Keyboard ISR runs when a key is struck
 ; Checks for a valid RNA symbol and places it at x4600
                .ORIG x2600
