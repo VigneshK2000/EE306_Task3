@@ -36,7 +36,7 @@ loop
 STATE_A			; Start codon FSM, go through states based on inputs
 	LDR R2, R6, 0
 	LD R3, Compliment_A
-	ADD R3, R3, R2
+	ADD R3, R3, R2	
 	BRZ STATE_AU
 	BRNZP loop
 STATE_AU
@@ -78,7 +78,7 @@ STATE_AUG
 	BRZ STATE_A
 	BRNZP loop
 	
-PasteBar
+PasteBar		; puts a pipe after start codon
 	LD R0, Pipe
 	TRAP X21
 	BRNZP State_U
