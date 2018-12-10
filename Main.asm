@@ -1,6 +1,6 @@
 ; Main.asm
 ; Name: Vignesh Krishnamurthy and Franklin Mao
-; UTEid: vk5452
+; UTEid: vk5452 and fm8487
 ; Continuously reads from x4600 making sure its not reading duplicate
 ; symbols. Processes the symbol based on the program description
 ; of mRNA processing.
