@@ -33,7 +33,7 @@ loop
 	ADD R6, R6, #-1	;decrease stack pointer by one
 	STR R0, R6, 0	;store whats in r6 offset 0 into r0  (Creating stack)
 
-STATE_A
+STATE_A			; Start codon FSM, go through states based on inputs
 	LDR R2, R6, 0
 	LD R3, Compliment_A
 	ADD R3, R3, R2
